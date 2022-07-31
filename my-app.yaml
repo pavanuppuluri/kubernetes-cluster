@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: "service-helloworld"
+  name: service-helloworld
 spec:
   selector:
     app: helloworld
