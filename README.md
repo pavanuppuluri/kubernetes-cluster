@@ -16,8 +16,6 @@ This repo contains step to create a simple Kubernetes cluster
              --discovery-token-ca-cert-hash sha256:dbeba2f61cc3c894b58fd7a063d020b2734b5c11d22421321a7bdd16266c06d7
              
 * Now both the worker nodes joined Kubernetes cluster. Check it using command
-  * <b>kubectl get nodes</b>
-
-The result should be like -
-![Screenshot](get_nodes.png)
+  * <b>kubectl get nodes</b>  
+   ![Screenshot](img/get_nodes.png)
 
