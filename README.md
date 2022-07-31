@@ -15,7 +15,8 @@ This repo contains steps to create a simple Kubernetes cluster
   ```
 * Configure networking
   ```
-  kubectl apply -n kube-system -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')"
+  kubectl apply -n kube-system -f 
+          "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')"
   ```
 * Execute below command in each worker node to join the Kubernetes cluster
   ```
