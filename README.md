@@ -18,4 +18,10 @@ This repo contains step to create a simple Kubernetes cluster
 * Now both the worker nodes joined Kubernetes cluster. Check it using command
   * <b>kubectl get nodes</b>  
    ![Screenshot](img/get_nodes.png)
+* Now deploy sample nginx application
+  * <b>kubectl apply -f https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/nginx-app.yaml</b>
+  * Execute <b>kubectl get pods</b>
+  ![Screenshot](img/get_pods.png)
+  
+
 
