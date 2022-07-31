@@ -1,5 +1,5 @@
 # kubernetes-cluster
-This repo contains step to create a simple Kubernetes cluster
+This repo contains steps to create a simple Kubernetes cluster
 
 * Login to https://labs.play-with-k8s.com
 * Create 3 instances (1 Master, 2 Worker Nodes)
