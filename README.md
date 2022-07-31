@@ -31,7 +31,8 @@ This repo contains steps to create a simple Kubernetes cluster
    ![Screenshot](img/get_nodes.png)
 * Deploy sample nginx application
   ```
-  kubectl apply -f https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/nginx-app.yaml
+  kubectl apply -f 
+          https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/nginx-app.yaml
   
   kubectl get pods
   ```
